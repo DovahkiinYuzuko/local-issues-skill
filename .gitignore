@@ -1,0 +1,8 @@
+# project:local-issues
+*
+!.gitignore
+# ---AUTO-Generated---
+# .gitignores/repo.gitignore
+!SKILL.md
+!references/
+!references/*.md
