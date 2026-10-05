@@ -18,6 +18,9 @@
 - **統括ロードマップとの同期**: 全体の進捗を可視化する `ROADMAP.md` を内部管理用として保持し、必要に応じて外部公開用のロードマップへ集約・出力させることも可能です。
 - **サブIssue対応**: 作業中に発生した派生タスクは、大元のIssueファイル内への追記と小数点付きブランチ（例: `issue-3.1-`）によって管理コストを抑えながら追跡できます。
 
+> [!NOTE]
+> 現在内部用の`ROADMAP.md`のみ細かいフォーマットを指定していますが、`issue.md`や外部用の`ROADMAP.md`のフォーマット指定などはあまりしていません。環境に合わせて改造することをおすすめします。
+
 ### ディレクトリ構造
 ```text
 docs/
@@ -50,6 +53,9 @@ docs/
 - **Git Branch Lifecycle Safety**: Creates a dedicated branch for each issue, enforcing a workflow where merging to the default branch and moving to `done/` strictly requires operational verification and user approval.
 - **Master Roadmap Synchronization**: Maintains an internal `ROADMAP.md` to track overall progress, with the option to format and export a public-facing roadmap at the repository root.
 - **Sub-Issue Support**: Additional tasks arising during implementation are tracked by appending to the parent issue file and creating decimal-numbered branches (e.g., `issue-3.1-`), minimizing management overhead.
+
+> [!NOTE]
+> Currently, a detailed format is only specified for the internal `ROADMAP.md`, while strict templates are not enforced for `issue.md` or the public-facing `ROADMAP.md`. We recommend customizing them to best fit your development environment.
 
 ### Directory Structure
 ```text
