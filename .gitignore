@@ -4,5 +4,7 @@
 # ---AUTO-Generated---
 # .gitignores/repo.gitignore
 !SKILL.md
+!LICENSE.*
+!README.md
 !references/
 !references/*.md
