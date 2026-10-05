@@ -12,6 +12,12 @@
 ### 概要
 `local-issues-skill` は、AIエージェントとの協調開発において、タスクや進捗状況をローカルリポジトリ内で完結して管理するためのエージェントスキルです。外部の課題管理サービスを使用せず、MarkdownファイルとGitブランチのライフサイクルによって安全かつ見通しの良い開発フローを提供します。
 
+### インストール
+
+```bash
+npx skills add https://github.com/DovahkiinYuzuko/local-issues-skill
+```
+
 ### 主な特徴
 - **ディレクトリベースのステータス管理**: `docs/local-issues/` 配下の `not-started/`、`wip/`、`done/` ディレクトリ間でファイルを移動させることで、ファイルツリーから即座に進捗状態を把握できます。
 - **Gitブランチと連動した安全設計**: 各Issueごとにブランチを切り、動作検証およびユーザーの承認を経てからのみマージおよび `done/` への移動を許可するワークフローを強制します。
@@ -47,6 +53,12 @@ docs/
 
 ### Overview
 `local-issues-skill` is an agent skill designed for AI-assisted development to manage tasks and progress locally within a repository. Without relying on external issue-tracking services, it provides a safe and transparent development workflow using Markdown files and Git branch lifecycles.
+
+### Install
+
+```bash
+npx skills add https://github.com/DovahkiinYuzuko/local-issues-skill
+```
 
 ### Key Features
 - **Directory-Based Status Tracking**: By moving files between the `not-started/`, `wip/`, and `done/` directories under `docs/local-issues/`, progress can be instantly identified via the file tree.
